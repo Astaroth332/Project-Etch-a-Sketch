@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+    background-color: #F7D443;
+}
+
+.heading {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.7em;
+    padding-right: 35px;
+}
+
+.button-container {
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+#container {
+    border: 30px ridge #FB6945;
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.row-of-square-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.col-of-square-item {
+    flex: 1;
+    border: .5px solid black;
+}
+
+.button-container button {
+    background-color: #FA284C;
+    font-size: 15px;
+    padding: 12px 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(87, 84, 84, 0.993);
+    transition: background-color .5s;
+}
+
+
+.button-container button:hover {
+    background-color: black;
+    color: #FA284C;
+    box-shadow: 2px 2px 2px rgb(20, 20, 20);
+    
+}
+
+
+ .button-container .toggleButton.active{
+    background-color:yellow;
+ }
